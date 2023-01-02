@@ -1,0 +1,41 @@
+body{
+    background-color: #02020a;
+    color: rgb(207, 208, 217);
+}
+
+header{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 30% 100%;
+    border-radius: 30px;
+    border: 1px solid rgb(72, 85, 255);
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul > li{
+    background-color: #fff;
+    border-radius: 5em;
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+ul > li > a{
+    color: black;
+    text-decoration: none;
+
+}
